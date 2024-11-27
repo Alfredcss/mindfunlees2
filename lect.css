@@ -1,0 +1,23 @@
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('img/caon.jpg') center/cover;
+    height: 80vh;
+    position: relative;
+}
+
+.social-icons a {
+    color: #ffffff;
+    margin-right: 1rem;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.social-icons a:hover {
+    opacity: 1;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}

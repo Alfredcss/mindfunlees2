@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mindfulness - Meditaciones</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+  <style>
+      /* Fondo de la página con imagen de ondas */
+      body {
+            background: linear-gradient(rgba(0, 0, 0, 0.375), rgba(0, 0, 0, 0.468)),
+                        url('/img/waves.jpg') center/cover;
+            min-height: 100vh;
+      }
+
+      /* Estilo para las tarjetas de meditación con fondo opaco */
+      .meditation-card {
+          background: rgba(157, 213, 235, 0.9); /* Color de fondo con opacidad */
+          backdrop-filter: blur(10px);
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      
+      .meditation-card:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.466);
+      }
+      
+      /* Sección con tarjetas de meditación */
+      .section {
+          max-width: 700px;
+          margin: 20px auto;
+          padding: 20px;
+          background: rgba(162, 229, 255, 0.62);
+          backdrop-filter: blur(10px);
+          border-radius: 8px;
+          color: #2d2d2d;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .section h2 {
+          color: #ffffff;
+          font-size: 1.3rem;
+          margin-bottom: 10px;
+      }
+
+      .section p {
+          line-height: 1.6;
+      }
+
+      /* Estilo para la navegación */
+      nav a {
+          color: #ffffff;
+      }
+
+      nav a:hover {
+          color: #8fc5d6;
+      }
+  </style>
+</head>
+<body class="text-gray-700">
+
+  <!-- Navegación -->
+  <nav class="absolute top-0 w-full z-10 p-6 flex justify-between items-center">
+      <div class="text-xl font-bold text-gray-100">Mindfunless</div>
+      <div class="space-x-6">
+          <a href="index.html" class="hover:text-gray-300">Home</a>
+          <a href="meditacion.html" class="hover:text-gray-300">Meditación</a>
+          <a href="lecturas.html" class="hover:text-gray-300">Lecturas</a>
+          <a href="aboutus.html" class="hover:text-gray-300">Contacto</a>
+      </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main class="mt-24 p-4">
+      <!-- Hero Section -->
+      <section class="section">
+        <h2>Paso 1</h2>
+        <p>Observa cuándo entras en un estado de sobrecarga emocional, algo que puedes hacer estableciendo tu nivel de negatividad. No tienes que esperar hasta alcanzar un nivel «alto» para hacer el enraizamiento. De hecho, es una buena idea empezar con la práctica antes, cuando percibas que tu nivel de negatividad está por el medio, sobre el 4 o el 5.</p>
+        <p>A continuación, escribe las claves que te permiten saber cuándo estás en un nivel 5-7 de sobrecarga emocional. Dicho de otro modo, ¿cómo percibes tu sobrecarga emocional, qué sensación tienes? (Por ejemplo, podría ser una sensación corporal, querer llorar, una emoción de rabia o de impotencia, etc.). El truco está en observar esto antes de reaccionar emocionalmente de una manera exagerada, o durante la sobrecarga emocional.</p>
+      </section>
+
+      <section class="section">
+        <h2>Paso 2</h2>
+        <p>Mira alrededor y describe tu entorno con una frase única, siguiendo con la intención de practicar las habilidades de conciencia RETEEVO. Esto podría formularse como: «estoy en el salón de casa y estoy practicando las habilidades del estar consciente y enraizado». El propósito de esto es centrarte en el momento presente. Practica esto justo ahora, escribiendo un ejemplo de afirmación intencional.</p>
+      </section>
+
+      <section class="section">
+        <h2>Paso 3</h2>
+        <p>Busca un lugar en el que puedas pasar aproximadamente entre cinco y siete minutos para practicar en paz. Puedes hacerlo también aunque haya personas presentes, pero es mejor cuando las distracciones están limitadas.</p>
+      </section>
+
+      <section class="section">
+        <h2>Paso 4</h2>
+        <p>Puedes estar aproximadamente entre un minuto y un minuto y medio con cada una de las habilidades de enraizamiento RETEEVO.</p>
+      </section>
+  </main>
+  
+</body>
+</html>

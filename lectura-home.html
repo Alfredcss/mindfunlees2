@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mindfulness - Lecturas</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* Estilo para la sección hero */
+    .hero-section {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                  url('img/caon.jpg') center/cover;
+      height: 80vh;
+      position: relative;
+    }
+
+    /* Estilo para los cuadros de lectura */
+    .lectura-card {
+      background-color: rgba(255, 255, 255, 0.9); /* Blanco opaco */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navegación -->
+  <nav class="absolute top-0 w-full z-10 p-6 flex justify-between items-center text-white">
+    <div class="text-xl font-bold">Mindfulness</div>
+    <div class="space-x-6">
+      <a href="index.html" class="hover:text-gray-300">Home</a>
+      <a href="meditacion.html" class="hover:text-gray-300">Meditación</a>
+      <a href="lecturas.html" class="hover:text-gray-300">Lecturas</a>
+      <a href="aboutus.html" class="hover:text-gray-300">Contacto</a>
+    </div>
+  </nav>
+
+  <!-- Sección Hero -->
+  <section class="hero-section flex items-center justify-center text-white">
+    <div class="text-center">
+      <h1 class="text-5xl font-bold">Lecturas para el Bienestar Mental</h1>
+      <p class="text-xl mt-4">Encuentra inspiración y herramientas para cultivar la paz interior y el equilibrio emocional.</p>
+    </div>
+  </section>
+
+  <!-- Contenido principal -->
+  <main class="max-w-4xl mx-auto py-12 px-6">
+    <!-- Secciones de lecturas en formato de lista -->
+    <ul class="space-y-8">
+      <!-- Primera lectura -->
+      <li class="lectura-card shadow-lg rounded-lg overflow-hidden p-6">
+        <h2 class="text-2xl font-bold mb-4">El Poder de la Respiración Consciente</h2>
+        <p class="text-gray-700 leading-relaxed mb-4">
+          La respiración consciente es una de las herramientas más poderosas para gestionar el estrés y vivir con mayor tranquilidad. Al practicar la respiración consciente, no solo ayudas a calmar la mente, sino que también mejoras tu salud física. 
+          Tómate unos minutos cada día para enfocarte en tu respiración, inhalando profundamente y exhalando lentamente. Al hacerlo, te conectarás más con el momento presente, permitiéndote reducir el estrés y sentirte más en paz. Recuerda, la paz comienza con una respiración.
+        </p>
+      </li>
+
+      <!-- Segunda lectura -->
+      <li class="lectura-card shadow-lg rounded-lg overflow-hidden p-6">
+        <h2 class="text-2xl font-bold mb-4">La Importancia de Aceptar el Presente</h2>
+        <p class="text-gray-700 leading-relaxed mb-4">
+          Muchas veces, el estrés y la ansiedad son causados por la resistencia al momento presente. Aceptar lo que sucede aquí y ahora, sin juzgarlo ni tratar de cambiarlo, puede ser liberador. Esta aceptación no significa que renuncies a tus metas, sino que reduces el sufrimiento al dejar de pelear contra lo inevitable.
+          Practicar la aceptación te ayuda a vivir con mayor serenidad y a manejar de mejor forma los desafíos que la vida te presenta.
+        </p>
+      </li>
+
+      <!-- Tercera lectura -->
+      <li class="lectura-card shadow-lg rounded-lg overflow-hidden p-6">
+        <h2 class="text-2xl font-bold mb-4">Los Beneficios de la Gratitud</h2>
+        <p class="text-gray-700 leading-relaxed mb-4">
+          La gratitud es una práctica que puede cambiar tu perspectiva y mejorar tu bienestar emocional. Al enfocarte en las cosas positivas de la vida, incluso en momentos difíciles, te permites cultivar una mentalidad de abundancia. Cada día, haz una lista de al menos tres cosas por las que te sientes agradecido.
+          Este simple ejercicio puede ayudarte a mejorar tu estado de ánimo, fortalecer tus relaciones y reducir el estrés, promoviendo una vida más satisfactoria y equilibrada.
+        </p>
+      </li>
+    </ul>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="bg-gray-700 text-white py-4 text-center">
+    &copy; 2023 Mindfulness. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>

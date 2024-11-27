@@ -1,0 +1,73 @@
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                url('/img/waves.jpg') center/cover;
+    min-height: 100vh;
+}
+
+.meditation-card {
+    background: rgba(190, 204, 239, 0.468);
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.meditation-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.social-icon {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0.7;
+}
+
+.social-icon:hover {
+    transform: translateY(-3px);
+    opacity: 1;
+}
+
+.ver-mas {
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.ver-mas:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(111, 111, 111);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.ver-mas:hover:after {
+    transform: scaleX(1);
+}
+
+.meditation-image {
+    transition: transform 0.5s ease;
+}
+
+.meditation-card:hover .meditation-image {
+    transform: scale(1.05);
+}
+
+.social-icons a {
+    color: #ffffff;
+    margin-right: 1rem;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.social-icons a:hover {
+    opacity: 1;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
